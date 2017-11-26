@@ -27,3 +27,7 @@ services:
      - eureka-client
     ports:
      - "9090:9090"
+networks:
+  default:
+    external:
+      name: mynet
